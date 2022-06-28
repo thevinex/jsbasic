@@ -1,0 +1,34 @@
+<script>
+    const clima = "quente"
+    clima = "Frio"
+    console.log(clima)
+
+</script>
+<script>
+    console.log('var x antes do bloco? ', x)
+    {
+        //Var é global e local
+        var x = 0
+    }
+    console.log('var x depois do bloco? ', x)
+</script>
+
+<script>
+    let y = 1
+    console.log('let y antes do bloco? ', y)
+    {
+        console.log('let y antes? ', y)
+        //let é local, apenas atualiza
+        y = 0
+        console.log('let y depois? ', y)
+    }
+    console.log('let y depois do bloco? ', y)
+</script>
+
+<script>
+    const z = 1
+    {
+        //const é constante e nesse caso existem 2 consts
+        const z = 0
+    }
+</script>
