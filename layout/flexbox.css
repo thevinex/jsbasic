@@ -1,0 +1,19 @@
+.flexbox{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.item:nth-child(1){
+    order: 1;
+}
+
+.container{
+    display: flex;
+    border: 1px solid red;
+    height: 200px;
+}
+.item1{
+    background-color: gray;
+    border: 1px solid;
+    flex: 1;
+}

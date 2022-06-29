@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    flex-direction: column-reverse;
+    height: 80vh;
+}
+
+
+/* .box{
+    display: flex;
+    border: 1px dashed red; */
+    /* Flex Wrap cria novas linhas */
+    /* flex-wrap: wrap;
+    justify-content: center; 
+}
+.box div{
+    border: 1px solid;
+    width: 80px;
+} */
+
+.box{
+    display: flex;
+    border: 1px dashed red;
+    /* Flex flow permite usar mais propriedades */
+    flex-flow: column wrap;
+}
+.box div{
+    border: 1px solid;
+    width: 80px;
+    height: 50px;
+}
