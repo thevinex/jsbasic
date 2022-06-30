@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+header{
+    padding: 4rem;
+    background-color: lightgray;
+}
+nav{
+    display: flex;
+    justify-content: space-between; /*joga para as extremidades*/
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: .8rem;
+    align-items: center;
+}
+ul li:last-child{
+    background-color: black;
+    color: white;
+    padding: .8rem;
+}
