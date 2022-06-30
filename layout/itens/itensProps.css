@@ -1,0 +1,13 @@
+.box{
+    display: flex;
+    border: 1px dashed red; 
+}
+.box div{
+    border: 1px solid;
+}
+.box div:nth-child(3){
+    flex-grow: 1;
+}
+.box div:nth-child(2){
+    flex-shrink: 3;
+}
