@@ -1,0 +1,29 @@
+{
+  "name": "NodeJS",
+  "version": "1.0.0",
+  "description": "aprendendo node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thevinex/jsbasic.git"
+  },
+  "author": "Vinícius Ferraz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thevinex/jsbasic/issues"
+  },
+  "homepage": "https://github.com/thevinex/jsbasic#readme",
+  "keywords": [
+    "learning",
+    "nodejs"
+  ],
+  "devDependencies": {
+    "cfonts": "^3.1.0"
+  },
+  "dependencies": {
+    "moment": "^2.29.3"
+  }
+}
