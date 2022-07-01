@@ -1,22 +1,15 @@
-// Criando e adicionando elementos
-// createElement
-// const div = document.createElement('div')
-// div.innerText = 'Ola, devs'
+const buttonOpenModal = document.getElementById('openModal')
 
-// // append prepend
-// const body = document.querySelector('body')
-// //adiciona antes
-// body.prepend(div)
-// //adiciona depois
-// body.append(div)
+const modalWrapper = document.querySelector('.modal-wrapper')
 
+buttonOpenModal.onclick = function(){
+    modalWrapper.classList.remove('invisible')
+}
 
+document.addEventListener('keydown', function(event){
+    const isEscKey = event.key === 'Escape'
 
-const div = document.createElement('div')
-div.innerText = 'Olá, devs'
-// insertBefore
-const body = document.querySelector('body')
-const script = body.querySelector('script')
-//body é a div pai, div é a nova, antes do script
-body.insertBefore(div,script)
-// Para after, utilizar .nextSibling
+    if(isEscKey){
+        modalWrapper.classList.add('invisible')
+    }
+})
